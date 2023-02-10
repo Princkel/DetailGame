@@ -42,7 +42,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="2022-02-25"
-        android:textColor="@color/Grey"
+        android:textColor="@color/grey"
         android:textStyle="italic"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="277dp" />
@@ -60,7 +60,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="4.4"
-        android:textColor="@color/Gold"
+        android:textColor="@color/gold"
         android:textStyle="italic"
         tools:layout_editor_absoluteX="439dp"
         tools:layout_editor_absoluteY="254dp" />
@@ -114,11 +114,11 @@
 
     <TextView
         android:id="@+id/textView10"
-        android:layout_width="413dp"
-        android:layout_height="35dp"
+        android:layout_width="454dp"
+        android:layout_height="48dp"
         android:textColor="@color/white"
-        tools:layout_editor_absoluteX="15dp"
-        tools:layout_editor_absoluteY="747dp"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="717dp"
         tools:text="@string/paragraph4" />
 
     <TextView
@@ -127,7 +127,7 @@
         android:layout_height="wrap_content"
         android:textColor="@color/white"
         tools:layout_editor_absoluteX="15dp"
-        tools:layout_editor_absoluteY="798dp"
+        tools:layout_editor_absoluteY="774dp"
         tools:text="@string/paragraph5" />
 
     <TextView
@@ -136,7 +136,7 @@
         android:layout_height="wrap_content"
         android:textColor="@color/white"
         tools:layout_editor_absoluteX="15dp"
-        tools:layout_editor_absoluteY="850dp"
+        tools:layout_editor_absoluteY="818dp"
         tools:text="@string/paragraph6" />
 
     <TextView
@@ -144,9 +144,72 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/white"
-        tools:layout_editor_absoluteX="17dp"
-        tools:layout_editor_absoluteY="902dp"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="847dp"
         tools:text="@string/paragraph7" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="318dp"
+        android:layout_height="412dp"
+        app:srcCompat="@drawable/coc"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="976dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Developers"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="893dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Marvelous, Tencent, Marvelous Entertainment Inc., MORE"
+        android:textColor="@color/blue"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="935dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Publisher"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="1002dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nintendo, Marvelous, Tencent, XSEED Games, MORE"
+        android:textColor="@color/red"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="1041dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="414dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="28dp"
+        android:text="Add to Favorite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.414"
+        app:layout_constraintStart_toStartOf="parent" />
 
 
 </ScrollView>
